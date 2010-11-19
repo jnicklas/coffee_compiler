@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    coffee_compiler (0.0.1)
-      therubyracer
+    coffee_compiler (0.9.4)
+      therubyracer (~> 0.7.0)
 
 GEM
   remote: http://rubygems.org/
@@ -17,6 +17,7 @@ GEM
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.1.0)
     therubyracer (0.7.5)
+    yard (0.6.2)
 
 PLATFORMS
   ruby
@@ -24,4 +25,5 @@ PLATFORMS
 DEPENDENCIES
   coffee_compiler!
   rspec (~> 2.0)
-  therubyracer
+  therubyracer (~> 0.7.0)
+  yard

@@ -14,8 +14,9 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "coffee_compiler"
 
-  s.add_runtime_dependency "therubyracer"
+  s.add_runtime_dependency "therubyracer", "~> 0.7.0"
   s.add_development_dependency "rspec", "~> 2.0"
+  s.add_development_dependency "yard"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
