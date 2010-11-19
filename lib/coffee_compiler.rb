@@ -1,0 +1,3 @@
+module CoffeeCompiler
+  # Your code goes here...
+end
