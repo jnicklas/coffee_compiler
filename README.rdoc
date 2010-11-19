@@ -8,6 +8,7 @@ CoffeeCompiler compiles coffeescript code from your Ruby code without shelling o
 
 == Usage
 
+    require 'coffee_compiler'
     CoffeeCompiler.new("(x) -> x * 2").compile
 
 == License:
